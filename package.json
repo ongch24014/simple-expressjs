@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ongch24014/simple-expressjs#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.2"
   },
   "devDependencies": {
