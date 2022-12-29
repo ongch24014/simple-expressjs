@@ -22,4 +22,9 @@ app.get('/', (req, res) => {
   // res.send("hi")
 })
 
+const userRouter = require("./routes/users")
+
+// all url starts with /users, go to this route
+app.use("/users", userRouter)
+
 app.listen(3000)
