@@ -24,7 +24,7 @@ router.post('/', (req, res) => {
 router
   .route("/:id")
   .get((req, res) => {
-    console.log(req.user)
+    console.log(req.user) // req from router.param
     const id = req.params.id
     res.send(`Get user with ID ${id}`)
   })
